@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/willames/.config/bspwm'
+let g:netrw_dirhist_2='/home/willames/t'
+let g:netrw_dirhist_1='/home/willames/.config/sxhkd'
+let g:netrw_dirhist_0='/home/willames/t'
+let g:netrw_dirhist_9='/home/willames/.config/bspwm'
+let g:netrw_dirhist_8='/home/willames/.local/lib/python3.10/site-packages/powerline/config_files/colorschemes'
+let g:netrw_dirhist_7='/home/willames/.config/powerline/colorschemes'
+let g:netrw_dirhist_6='/home/willames/INS2021/oi/ins'
+let g:netrw_dirhist_5='/home/willames/Documents/IRF2022/Liqi'
+let g:netrw_dirhist_4='/home/willames/Documents/IRF2022/v2/novadax'

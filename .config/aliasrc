@@ -1,0 +1,33 @@
+
+alias \
+	grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg" \
+	update="doas pacman -Syu" \
+	myip="curl ipinfo.io/ip" \
+	ports="ss -tulanp" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkdir="mkdir -pv" \
+	srm='function _(){ cp $1 /home/willames/trash; }; _' \
+	untar="tar -zxvf" \
+	sdn="shutdown now -h" \
+	install="doas pacman -S" \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="grep --color=auto" \
+	ccat="highlight --out-format=ansi" \
+	pi="doas python3 setup.py install" \
+	npb="npm run build" \
+    remove="doas pacman -R" \
+    activate="source env/bin/activate" \
+    mntw="doas mount /dev/sda2 /mnt" \
+    dok="cd /home/willames/Documents/Dokdex/arn/arbitrageBots/Interface" \
+	ccxt-build="cd /home/willames/github/ccxt/ && npm run build && cd python && pi" \
+    bigu="cd /home/willames/Documents/bigo-app" \
+    sigc="cd /home/willames/Documents/projetos-pessoais/pythonScripts/ChartCreator" \
+	pok="cd /home/willames/Documents/projetos-pessoais/pythonGames/helloWorld && subl ." \
+	thx="cd /home/willames/Documents/trabalhos/thehuxley && subl ." \
+	update="sudo pacman -Sy archlinux-keyring && sudo pacman -Syu" \
+	bad="cd /home/willames/Documents/projetos-pessoais/web/bad-cards" \
+	word="cd /home/willames/Documents/projetos-pessoais/pythonScripts/word_guess" \
+	config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
