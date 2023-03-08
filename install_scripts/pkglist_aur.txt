@@ -1,0 +1,11 @@
+bastet
+brave-bin
+code-features
+code-marketplace
+debtap
+insomnia-bin
+mongodb-bin
+mongosh-bin
+mycli
+picom-ibhagwan-git
+yay
